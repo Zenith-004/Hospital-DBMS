@@ -1,0 +1,29 @@
+Label(
+    right_frame, 
+    text="Select Gender", 
+    bg='#CCCCCC',
+    font=f
+    ).grid(row=4, column=0, sticky=W, pady=10)
+male_rb = Radiobutton(
+    gender_frame, 
+    text='Male',
+    bg='#CCCCCC',
+    variable=var,
+    value='male',
+    font=('Times', 10),
+    
+)
+
+female_rb = Radiobutton(
+    gender_frame,
+    text='Female',
+    bg='#CCCCCC',
+    variable=var,
+    value='female',
+    font=('Times', 10),
+
+
+gender_frame.grid(row=4, column=1, pady=10, padx=20)
+male_rb.pack(expand=True, side=LEFT)
+female_rb.pack(expand=True, side=LEFT)
+

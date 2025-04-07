@@ -1,7 +1,3 @@
-Got it! Here's the updated and detailed `README.md` for your **Medicare** project, now reflecting the correct **MySQL + Tkinter** tech stack — making it a **desktop-based hospital management system** with a GUI interface.
-
----
-
 # 🏥 Medicare – Desktop Hospital Management System  
 > Your all-in-one solution for patient care, bed management, and hospital services — powered by **Python + Tkinter + MySQL** 💉💻
 
